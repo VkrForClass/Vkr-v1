@@ -22,8 +22,14 @@ const swiperAbout = new Swiper(".about__slider", {
   },
 });
 
-document.querySelectorAll('.accordeon__triger').forEach((item) =>{
-  item.addEventListener('click', () => {
-    item.parentNode.classList.toggle('accordeon__item--active')
-  })
+const  swiper = new Swiper(".period__slider", {
+  direction: "vertical",
+  slidesPerView: 1,
+  spaceBetween: 30,
+  mousewheel: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 });
+
