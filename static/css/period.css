@@ -21,16 +21,16 @@
 }
 
 .nav-item {
-    flex: 1; /* Каждый элемент занимает равную долю */
+    flex: 1;
     display: flex;
-    justify-content: center; /* Горизонтальное выравнивание по центру */
-    align-items: center; /* Вертикальное выравнивание по центру */
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 24px; /* Размер шрифта */
-    cursor: pointer; /* Указатель мыши в виде руки */
-    color: white; /* Цвет текста */
-    background-size: cover; /* Фоновое изображение покрывает весь блок */
-    background-position: center; /* Центрируем фон */
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+    background-size: cover;
+    background-position: center;
 }
 
 .home {
@@ -42,11 +42,11 @@
 }
 
 .photos {
-    background-image: url(../images/menu-nav/photos.png); /* Фоновое изображение для Архива фотографий */
+    background-image: url(../images/menu-nav/photos.png);
 }
 
 .nav-item:hover {
-    opacity: 0.8; /* Прозрачность при наведении */
+    opacity: 0.8;
 }
 
 .footer{
@@ -96,7 +96,7 @@
 }
 
 .period-slide__title{
-    font-family: "Playfair Display", serif;
+    font-family: "Montserrat", serif;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 40px;
@@ -155,6 +155,7 @@
 
     .period-slide__content {
         min-height: 160px;
+        flex-basis: 208px;
         min-width: revert;
     }
 
@@ -168,7 +169,7 @@
 
     .period-slide__title__phone{
         display: flex;
-        font-family: "Playfair Display", serif;
+        font-family: "Montserrat", serif;
         font-weight: 400;
         font-size: 31px;
         line-height: 1;
