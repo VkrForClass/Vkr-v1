@@ -148,15 +148,12 @@
 
 @media (max-width: 620px) {
 
-    .period-container_arrow svg{
-        height: 40px;
-        width: 40px;
-    }
-
     .period-slide__content {
         min-height: 160px;
         flex-basis: 208px;
         min-width: revert;
+        display: flex;
+        flex-direction: column;
     }
 
     .period-slide__title {
@@ -171,7 +168,7 @@
         display: flex;
         font-family: "Montserrat", serif;
         font-weight: 400;
-        font-size: 31px;
+        font-size: 30px;
         line-height: 1;
         color:yellow;
         padding-bottom: 10px;
@@ -179,8 +176,9 @@
 
     .period-slide__text__phone{
         display: flex;
-        color:yellow;
+        color: yellow;
         padding-bottom: 10px;
+        font-size: 16px;
     }
 
     .container{
@@ -194,7 +192,9 @@
     .button {
         color: #ffffff;
         padding: 0;
-        border: 0px;
+        border: 0;
+        width: 135px;
+        font-size: 15px;
     }
 
     .button:hover{
